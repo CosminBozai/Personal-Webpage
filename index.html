@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bg-background" lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,12 +7,625 @@
     <title>cosminbozai.dev</title>
   </head>
 
-  <body class="mx-auto max-w-6xl px-8 text-lg">
-    <!-- Hero  -->
-    <section class="border-b-2 border-lightGray py-6 text-white">
-      <!-- Header  -->
-      <header
-        class="mb-10 flex flex-col items-center md:flex-row md:items-start md:justify-between"
+  <body class="bg-background">
+    <div class="mx-auto max-w-6xl px-8 text-lg">
+      <!-- Hero  -->
+      <section class="border-b-2 border-lightGray py-6 text-white">
+        <!-- Header  -->
+        <header
+          class="mb-10 flex flex-col items-center md:flex-row md:items-start md:justify-between"
+        >
+          <p class="mb-5 text-2xl font-extrabold">cosminbozai.dev</p>
+          <!-- Social media -->
+          <div class="flex w-52 items-center justify-between">
+            <a href="https://github.com/CosminBozai" target="_blank">
+              <img
+                src="assets/images/icon-github.svg"
+                alt="github"
+                class="h-6 w-6"
+            /></a>
+
+            <a
+              href="https://www.linkedin.com/in/cosmin-bozai-29257a240/"
+              target="_blank"
+            >
+              <img
+                src="assets/images/icon-linkedin.svg"
+                alt="linkedin"
+                class="h-7 w-7"
+            /></a>
+
+            <a href="mailto:cosminbozai.dev@gmail.com"
+              ><img src="assets/images/gmail.png" alt="gmail" class="h-7 w-7"
+            /></a>
+          </div>
+        </header>
+
+        <div
+          class="flex flex-col items-center justify-between md:flex-row-reverse md:items-start"
+        >
+          <!-- Photo  -->
+          <div
+            class="mb-10 min-h-[160px] w-[35%] min-w-[160px] overflow-hidden rounded-full border-4 border-lightGray lg:w-[28%]"
+          >
+            <img
+              src="assets/images/me.jpg"
+              alt="profile-pic"
+              class="h-full w-full"
+            />
+          </div>
+          <!-- Hero text  -->
+          <div class="md:w-[60%]">
+            <h1
+              class="mb-7 text-center text-4xl font-bold md:text-start lg:text-6xl xl:text-7xl"
+            >
+              Nice to meet you! <br />
+              I'm
+              <span class="underline decoration-paleGreen">Cosmin Bozai.</span>
+            </h1>
+            <p class="mb-10 text-center text-lightGray md:text-start">
+              Based in Sheffield, UK, I’m a front-end developer passionate about
+              building accessible web apps that users love.
+            </p>
+            <!-- Page anchors  -->
+            <div
+              class="mx-auto flex max-w-md flex-col items-center md:mx-0 md:flex-row md:items-start md:justify-between"
+            >
+              <div class="mb-4 w-fit cursor-pointer hover:text-paleGreen">
+                <p class="mb-1">GET MY CV</p>
+                <div class="h-[3px] w-full bg-paleGreen"></div>
+              </div>
+              <div class="mb-4 w-fit cursor-pointer hover:text-paleGreen">
+                <p class="mb-1">MY PROJECTS</p>
+                <div class="h-[3px] w-full bg-paleGreen"></div>
+              </div>
+              <div class="mb-4 w-fit cursor-pointer hover:text-paleGreen">
+                <p class="mb-1">CONTACT ME</p>
+                <div class="h-[3px] w-full bg-paleGreen"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technologies section  -->
+      <section class="border-b-2 border-lightGray py-6 text-white">
+        <h2 class="mb-10 text-2xl font-bold md:text-4xl xl:text-5xl">
+          Technologies I use
+        </h2>
+        <!-- Grid  -->
+        <div class="grid grid-cols-1 gap-12 sm:grid-cols-2">
+          <div class="flex flex-col items-center">
+            <img
+              src="assets/images/icon-htmlsvg.svg"
+              alt="html"
+              class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
+            />
+            <p class="font-bold text-lightGray md:text-xl">HTML 5</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="assets/images/CSS-icon.png"
+              alt="css"
+              class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
+            />
+            <p class="font-bold text-lightGray md:text-xl">CSS 3</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="assets/images/js-icon.png"
+              alt="html"
+              class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
+            />
+            <p class="font-bold text-lightGray md:text-xl">Javascript</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="assets/images/ts-icon.png"
+              alt="css"
+              class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
+            />
+            <p class="font-bold text-lightGray md:text-xl">Typescript</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="assets/images/react-icon.png"
+              alt="html"
+              class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
+            />
+            <p class="font-bold text-lightGray md:text-xl">React</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="assets/images/sass-icon.png"
+              alt="css"
+              class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
+            />
+            <p class="font-bold text-lightGray md:text-xl">Sass</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section  -->
+      <section class="py-10 text-white">
+        <h2 class="mb-12 text-4xl font-bold md:text-5xl xl:text-6xl">
+          Projects
+        </h2>
+        <!-- Grid  -->
+        <div class="grid grid-cols-1 gap-12 sm:grid-cols-2">
+          <!-- Small screen projects  -->
+
+          <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
+            <img src="dictionary.png" alt="" class="h-64 w-full lg:h-[400px]" />
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Dictionary</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">React</span><span>Typescript</span>
+              </div>
+              <div class="flex items-center gap-7">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://dictionary-app-gamma-eight.vercel.app/"
+                    class="mb-1"
+                    >VIEW PROJECT</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://github.com/CosminBozai/Dictionary-App"
+                    class="mb-1"
+                    >VIEW CODE</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
+            <img src="ip-tracker.png" alt="" class="h-64 lg:h-[400px]" />
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">IP Tracker</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">Typescript</span><span>Sass</span>
+              </div>
+              <div class="flex items-center gap-7">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://ip-tracker-d99f.vercel.app/"
+                    class="mb-1"
+                    >VIEW PROJECT</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://github.com/CosminBozai/IP-Tracker"
+                    class="mb-1"
+                    >VIEW CODE</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
+            <img src="generator.png" alt="" class="h-64 w-full lg:h-[400px]" />
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Password Generator</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">Typescript</span><span>Sass</span>
+              </div>
+              <div class="flex items-center gap-7">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://password-generator-six-ruby.vercel.app/"
+                    class="mb-1"
+                    >VIEW PROJECT</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://github.com/CosminBozai/password-generator"
+                    class="mb-1"
+                    >VIEW CODE</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
+            <img src="card.png" alt="" class="h-64 lg:h-[400px]" />
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Interactive Card Details</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">React</span><span>Typescript</span>
+              </div>
+              <div class="flex items-center gap-7">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://interactive-card-details-liart.vercel.app/"
+                    class="mb-1"
+                    >VIEW PROJECT</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://github.com/CosminBozai/Interactive-Card-Details"
+                    class="mb-1"
+                    >VIEW CODE</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
+            <img src="results.png" alt="" class="h-64 w-full lg:h-[400px]" />
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Results Component</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">React</span><span>Typescript</span>
+              </div>
+              <div class="flex items-center gap-7">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://result-summary-component-three.vercel.app/"
+                    class="mb-1"
+                    >VIEW PROJECT</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://github.com/CosminBozai/Result-Summary-Component"
+                    class="mb-1"
+                    >VIEW CODE</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
+            <img src="rating.png" alt="" class="h-64 lg:h-[400px]" />
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Rating Component</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">React</span><span>Typescript</span>
+              </div>
+              <div class="flex items-center gap-7">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://interactive-rating-component-sable-ten.vercel.app/"
+                    class="mb-1"
+                    >VIEW PROJECT</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://github.com/CosminBozai/Interactive-Rating-Component"
+                    class="mb-1"
+                    >VIEW CODE</a
+                  >
+                  <div class="h-[3px] w-full bg-paleGreen"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Large screen projects  -->
+
+          <div class="hidden w-[525px] xl:block">
+            <div class="relative">
+              <div
+                class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
+              >
+                <div
+                  class="flex h-full flex-col items-center justify-center gap-7"
+                >
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://dictionary-app-gamma-eight.vercel.app/"
+                      class="mb-1"
+                      >VIEW PROJECT</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://github.com/CosminBozai/Dictionary-App"
+                      class="mb-1"
+                      >VIEW CODE</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="dictionary.png"
+                alt=""
+                class="h-64 w-full lg:h-[400px]"
+              />
+            </div>
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Dictionary</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">React</span><span>Typescript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden w-[525px] xl:block">
+            <div class="relative">
+              <div
+                class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
+              >
+                <div
+                  class="flex h-full flex-col items-center justify-center gap-7"
+                >
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://ip-tracker-d99f.vercel.app/"
+                      class="mb-1"
+                      >VIEW PROJECT</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://github.com/CosminBozai/IP-Tracker"
+                      class="mb-1"
+                      >VIEW CODE</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="ip-tracker.png"
+                alt=""
+                class="h-64 w-full lg:h-[400px]"
+              />
+            </div>
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">IP Tracker</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">Typescript</span><span>Sass</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden w-[525px] xl:block">
+            <div class="relative">
+              <div
+                class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
+              >
+                <div
+                  class="flex h-full flex-col items-center justify-center gap-7"
+                >
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://password-generator-six-ruby.vercel.app/"
+                      class="mb-1"
+                      >VIEW PROJECT</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://github.com/CosminBozai/password-generator"
+                      class="mb-1"
+                      >VIEW CODE</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="generator-lg.png"
+                alt=""
+                class="h-64 w-full lg:h-[400px]"
+              />
+            </div>
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Password Generator</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">Typescript</span><span>Sass</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden w-[525px] xl:block">
+            <div class="relative">
+              <div
+                class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
+              >
+                <div
+                  class="flex h-full flex-col items-center justify-center gap-7"
+                >
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://interactive-card-details-liart.vercel.app/"
+                      class="mb-1"
+                      >VIEW PROJECT</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://github.com/CosminBozai/Interactive-Card-Details"
+                      class="mb-1"
+                      >VIEW CODE</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                </div>
+              </div>
+              <img src="card.png" alt="" class="h-64 w-full lg:h-[400px]" />
+            </div>
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Interactive Card Details</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">React</span><span>Typescript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden w-[525px] xl:block">
+            <div class="relative">
+              <div
+                class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
+              >
+                <div
+                  class="flex h-full flex-col items-center justify-center gap-7"
+                >
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://result-summary-component-three.vercel.app/"
+                      class="mb-1"
+                      >VIEW PROJECT</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://github.com/CosminBozai/Result-Summary-Component"
+                      class="mb-1"
+                      >VIEW CODE</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                </div>
+              </div>
+              <img src="results.png" alt="" class="h-64 w-full lg:h-[400px]" />
+            </div>
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Result Component</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">React</span><span>Typescript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden w-[525px] xl:block">
+            <div class="relative">
+              <div
+                class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
+              >
+                <div
+                  class="flex h-full flex-col items-center justify-center gap-7"
+                >
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://interactive-rating-component-sable-ten.vercel.app/"
+                      class="mb-1"
+                      >VIEW PROJECT</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                  <div class="hover:text-paleGreen">
+                    <a
+                      target="_blank"
+                      href="https://github.com/CosminBozai/IP-Tracker"
+                      class="mb-1"
+                      >VIEW CODE</a
+                    >
+                    <div class="h-[3px] w-full bg-paleGreen"></div>
+                  </div>
+                </div>
+              </div>
+              <img src="rating.png" alt="" class="h-64 w-full lg:h-[400px]" />
+            </div>
+            <div class="my-2">
+              <h3 class="mb-1 text-2xl">Rating Component</h3>
+              <div class="mb-5 text-base text-lightGray">
+                <span class="mr-4">React</span><span>Typescript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Bottom of the page  -->
+    <div class="w-full bg-darkGray text-lg text-white">
+      <div class="px-8">
+        <section class="mx-auto max-w-6xl border-b-2 border-lightGray py-8">
+          <div class="mb-8">
+            <h2
+              class="mb-6 text-center text-4xl font-bold md:text-5xl xl:text-6xl"
+            >
+              Contact
+            </h2>
+            <p class="text-center text-lightGray md:text-start">
+              I would love to hear from you if you're interested in
+              collaborating. Just use one of the contacting methods bellow and
+              we'll get in touch!
+            </p>
+          </div>
+
+          <!-- Links  -->
+          <div>
+            <a
+              href="https://www.linkedin.com/in/cosmin-bozai-29257a240/"
+              target="_blank"
+              class="mb-5 block"
+            >
+              <img
+                src="assets/images/icon-linkedin.svg"
+                alt="linkedin"
+                class="inline-block h-7 w-7"
+              />
+              <span>Cosmin Bozai</span>
+            </a>
+
+            <a href="mailto:cosminbozai.dev@gmail.com" class="block"
+              ><img
+                src="assets/images/gmail.png"
+                alt="gmail"
+                class="inline-block h-7 w-7"
+              />
+              <span>cosminbozai.dev@gmail.com</span>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer  -->
+      <footer
+        class="mx-auto flex max-w-6xl flex-col items-center p-8 md:flex-row md:items-start md:justify-between"
       >
         <p class="mb-5 text-2xl font-extrabold">cosminbozai.dev</p>
         <!-- Social media -->
@@ -38,536 +651,8 @@
             ><img src="assets/images/gmail.png" alt="gmail" class="h-7 w-7"
           /></a>
         </div>
-      </header>
-
-      <div
-        class="flex flex-col items-center justify-between md:flex-row-reverse md:items-start"
-      >
-        <!-- Photo  -->
-        <div
-          class="mb-10 min-h-[160px] w-[35%] min-w-[160px] overflow-hidden rounded-full border-4 border-lightGray lg:w-[28%]"
-        >
-          <img
-            src="assets/images/me.jpg"
-            alt="profile-pic"
-            class="h-full w-full"
-          />
-        </div>
-        <!-- Hero text  -->
-        <div class="md:w-[60%]">
-          <h1
-            class="mb-7 text-center text-4xl font-bold md:text-start lg:text-6xl xl:text-7xl"
-          >
-            Nice to meet you! <br />
-            I'm
-            <span class="underline decoration-paleGreen">Cosmin Bozai.</span>
-          </h1>
-          <p class="mb-10 text-center text-lightGray md:text-start">
-            Based in Sheffield, UK, I’m a front-end developer passionate about
-            building accessible web apps that users love.
-          </p>
-          <!-- Page anchors  -->
-          <div
-            class="mx-auto flex max-w-md flex-col items-center md:mx-0 md:flex-row md:items-start md:justify-between"
-          >
-            <div class="mb-4 w-fit cursor-pointer hover:text-paleGreen">
-              <p class="mb-1">GET MY CV</p>
-              <div class="h-[3px] w-full bg-paleGreen"></div>
-            </div>
-            <div class="mb-4 w-fit cursor-pointer hover:text-paleGreen">
-              <p class="mb-1">MY PROJECTS</p>
-              <div class="h-[3px] w-full bg-paleGreen"></div>
-            </div>
-            <div class="mb-4 w-fit cursor-pointer hover:text-paleGreen">
-              <p class="mb-1">CONTACT ME</p>
-              <div class="h-[3px] w-full bg-paleGreen"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Technologies section  -->
-    <section class="border-b-2 border-lightGray py-6 text-white">
-      <h2 class="mb-10 text-2xl font-bold md:text-4xl xl:text-5xl">
-        Technologies I use
-      </h2>
-      <!-- Grid  -->
-      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2">
-        <div class="flex flex-col items-center">
-          <img
-            src="assets/images/icon-htmlsvg.svg"
-            alt="html"
-            class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
-          />
-          <p class="font-bold text-lightGray md:text-xl">HTML 5</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="assets/images/CSS-icon.png"
-            alt="css"
-            class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
-          />
-          <p class="font-bold text-lightGray md:text-xl">CSS 3</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="assets/images/js-icon.png"
-            alt="html"
-            class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
-          />
-          <p class="font-bold text-lightGray md:text-xl">Javascript</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="assets/images/ts-icon.png"
-            alt="css"
-            class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
-          />
-          <p class="font-bold text-lightGray md:text-xl">Typescript</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="assets/images/react-icon.png"
-            alt="html"
-            class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
-          />
-          <p class="font-bold text-lightGray md:text-xl">React</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <img
-            src="assets/images/sass-icon.png"
-            alt="css"
-            class="mb-3 h-28 w-28 sm:h-40 sm:w-40 md:h-48 md:w-48"
-          />
-          <p class="font-bold text-lightGray md:text-xl">Sass</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects section  -->
-    <section class="border-b-2 border-lightGray py-10 text-white">
-      <h2 class="mb-12 text-4xl font-bold md:text-5xl xl:text-6xl">Projects</h2>
-      <!-- Grid  -->
-      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2">
-        <!-- Small screen projects  -->
-
-        <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
-          <img src="dictionary.png" alt="" class="h-64 w-full lg:h-[400px]" />
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Dictionary</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">React</span><span>Typescript</span>
-            </div>
-            <div class="flex items-center gap-7">
-              <div>
-                <a
-                  target="_blank"
-                  href="https://dictionary-app-gamma-eight.vercel.app/"
-                  class="mb-1"
-                  >VIEW PROJECT</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/CosminBozai/Dictionary-App"
-                  class="mb-1"
-                  >VIEW CODE</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
-          <img src="ip-tracker.png" alt="" class="h-64 lg:h-[400px]" />
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">IP Tracker</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">Typescript</span><span>Sass</span>
-            </div>
-            <div class="flex items-center gap-7">
-              <div>
-                <a
-                  target="_blank"
-                  href="https://ip-tracker-d99f.vercel.app/"
-                  class="mb-1"
-                  >VIEW PROJECT</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/CosminBozai/IP-Tracker"
-                  class="mb-1"
-                  >VIEW CODE</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
-          <img src="generator.png" alt="" class="h-64 w-full lg:h-[400px]" />
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Password Generator</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">Typescript</span><span>Sass</span>
-            </div>
-            <div class="flex items-center gap-7">
-              <div>
-                <a
-                  target="_blank"
-                  href="https://password-generator-six-ruby.vercel.app/"
-                  class="mb-1"
-                  >VIEW PROJECT</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/CosminBozai/password-generator"
-                  class="mb-1"
-                  >VIEW CODE</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
-          <img src="card.png" alt="" class="h-64 lg:h-[400px]" />
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Interactive Card Details</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">React</span><span>Typescript</span>
-            </div>
-            <div class="flex items-center gap-7">
-              <div>
-                <a
-                  target="_blank"
-                  href="https://interactive-card-details-liart.vercel.app/"
-                  class="mb-1"
-                  >VIEW PROJECT</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/CosminBozai/Interactive-Card-Details"
-                  class="mb-1"
-                  >VIEW CODE</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
-          <img src="results.png" alt="" class="h-64 w-full lg:h-[400px]" />
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Results Component</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">React</span><span>Typescript</span>
-            </div>
-            <div class="flex items-center gap-7">
-              <div>
-                <a
-                  target="_blank"
-                  href="https://result-summary-component-three.vercel.app/"
-                  class="mb-1"
-                  >VIEW PROJECT</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/CosminBozai/Result-Summary-Component"
-                  class="mb-1"
-                  >VIEW CODE</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="mx-auto w-80 sm:my-0 lg:w-[450px] xl:hidden">
-          <img src="rating.png" alt="" class="h-64 lg:h-[400px]" />
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Rating Component</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">React</span><span>Typescript</span>
-            </div>
-            <div class="flex items-center gap-7">
-              <div>
-                <a
-                  target="_blank"
-                  href="https://interactive-rating-component-sable-ten.vercel.app/"
-                  class="mb-1"
-                  >VIEW PROJECT</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/CosminBozai/Interactive-Rating-Component"
-                  class="mb-1"
-                  >VIEW CODE</a
-                >
-                <div class="h-[3px] w-full bg-paleGreen"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Large screen projects  -->
-
-        <div class="hidden w-[525px] xl:block">
-          <div class="relative">
-            <div
-              class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
-            >
-              <div
-                class="flex h-full flex-col items-center justify-center gap-7"
-              >
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://dictionary-app-gamma-eight.vercel.app/"
-                    class="mb-1"
-                    >VIEW PROJECT</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://github.com/CosminBozai/Dictionary-App"
-                    class="mb-1"
-                    >VIEW CODE</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-              </div>
-            </div>
-            <img src="dictionary.png" alt="" class="h-64 w-full lg:h-[400px]" />
-          </div>
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Dictionary</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">React</span><span>Typescript</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hidden w-[525px] xl:block">
-          <div class="relative">
-            <div
-              class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
-            >
-              <div
-                class="flex h-full flex-col items-center justify-center gap-7"
-              >
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://ip-tracker-d99f.vercel.app/"
-                    class="mb-1"
-                    >VIEW PROJECT</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://github.com/CosminBozai/IP-Tracker"
-                    class="mb-1"
-                    >VIEW CODE</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-              </div>
-            </div>
-            <img src="ip-tracker.png" alt="" class="h-64 w-full lg:h-[400px]" />
-          </div>
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">IP Tracker</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">Typescript</span><span>Sass</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hidden w-[525px] xl:block">
-          <div class="relative">
-            <div
-              class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
-            >
-              <div
-                class="flex h-full flex-col items-center justify-center gap-7"
-              >
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://password-generator-six-ruby.vercel.app/"
-                    class="mb-1"
-                    >VIEW PROJECT</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://github.com/CosminBozai/password-generator"
-                    class="mb-1"
-                    >VIEW CODE</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-              </div>
-            </div>
-            <img
-              src="generator-lg.png"
-              alt=""
-              class="h-64 w-full lg:h-[400px]"
-            />
-          </div>
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Password Generator</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">Typescript</span><span>Sass</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hidden w-[525px] xl:block">
-          <div class="relative">
-            <div
-              class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
-            >
-              <div
-                class="flex h-full flex-col items-center justify-center gap-7"
-              >
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://interactive-card-details-liart.vercel.app/"
-                    class="mb-1"
-                    >VIEW PROJECT</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://github.com/CosminBozai/Interactive-Card-Details"
-                    class="mb-1"
-                    >VIEW CODE</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-              </div>
-            </div>
-            <img src="card.png" alt="" class="h-64 w-full lg:h-[400px]" />
-          </div>
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Interactive Card Details</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">React</span><span>Typescript</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hidden w-[525px] xl:block">
-          <div class="relative">
-            <div
-              class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
-            >
-              <div
-                class="flex h-full flex-col items-center justify-center gap-7"
-              >
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://result-summary-component-three.vercel.app/"
-                    class="mb-1"
-                    >VIEW PROJECT</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://github.com/CosminBozai/Result-Summary-Component"
-                    class="mb-1"
-                    >VIEW CODE</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-              </div>
-            </div>
-            <img src="results.png" alt="" class="h-64 w-full lg:h-[400px]" />
-          </div>
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Result Component</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">React</span><span>Typescript</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hidden w-[525px] xl:block">
-          <div class="relative">
-            <div
-              class="absolute inset-0 bg-background opacity-0 transition-opacity hover:opacity-80"
-            >
-              <div
-                class="flex h-full flex-col items-center justify-center gap-7"
-              >
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://interactive-rating-component-sable-ten.vercel.app/"
-                    class="mb-1"
-                    >VIEW PROJECT</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-                <div class="hover:text-paleGreen">
-                  <a
-                    target="_blank"
-                    href="https://github.com/CosminBozai/IP-Tracker"
-                    class="mb-1"
-                    >VIEW CODE</a
-                  >
-                  <div class="h-[3px] w-full bg-paleGreen"></div>
-                </div>
-              </div>
-            </div>
-            <img src="rating.png" alt="" class="h-64 w-full lg:h-[400px]" />
-          </div>
-          <div class="my-2">
-            <h3 class="mb-1 text-2xl">Rating Component</h3>
-            <div class="mb-5 text-base text-lightGray">
-              <span class="mr-4">React</span><span>Typescript</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+      </footer>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
